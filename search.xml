@@ -10,4 +10,32 @@
 <p>3.测试修改</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>配置github token</title>
+    <url>/2021/11/01/%E9%85%8D%E7%BD%AEgithub-token/</url>
+    <content><![CDATA[<p>在2021年 8 月 13 日之后，如果你还用账户密码来操作 Github 上的仓库，就会收到以上警告：</p>
+<p>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.<br> remote: Please see <a class="link"   href="https://links.jianshu.com/go?to=https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/" >https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/<i class="fas fa-external-link-alt"></i></a> for more information.<br> fatal: unable to access ‘<a class="link"   href="https://links.jianshu.com/go?to=https://github.com/" >https://github.com/<i class="fas fa-external-link-alt"></i></a><user>/<repo>/‘: The requested URL returned error: 403</p>
+<p>作者：從此珍惜<br>链接：<a class="link"   href="https://www.jianshu.com/p/c2b565154395" >https://www.jianshu.com/p/c2b565154395<i class="fas fa-external-link-alt"></i></a><br>来源：简书</p>
+<p>必须使用个人访问令牌（personal access token），就是把你的密码替换成token！<br>github官方解释</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>github初始化仓库</title>
+    <url>/2021/11/01/github%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
 </search>
