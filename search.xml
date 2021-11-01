@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>配置github token</title>
+    <url>/2021/11/01/%E9%85%8D%E7%BD%AEgithub-token/</url>
+    <content><![CDATA[<p>在2021年 8 月 13 日之后，如果你还用账户密码来操作 Github 上的仓库，就会收到以上警告：</p>
+<p>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.<br> remote: Please see <a class="link"   href="https://links.jianshu.com/go?to=https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/" >https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/<i class="fas fa-external-link-alt"></i></a> for more information.<br> fatal: unable to access ‘<a class="link"   href="https://links.jianshu.com/go?to=https://github.com/" >https://github.com/<i class="fas fa-external-link-alt"></i></a><user>/<repo>/‘: The requested URL returned error: 403</p>
+<p>作者：從此珍惜<br>链接：<a class="link"   href="https://www.jianshu.com/p/c2b565154395" >https://www.jianshu.com/p/c2b565154395<i class="fas fa-external-link-alt"></i></a><br>来源：简书</p>
+<p>必须使用个人访问令牌（personal access token），就是把你的密码替换成token！<br>github官方解释</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第一篇博客</title>
     <url>/2021/10/29/hello-world/</url>
     <content><![CDATA[<h1 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h1><p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
@@ -20,22 +36,6 @@
       </categories>
       <tags>
         <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>配置github token</title>
-    <url>/2021/11/01/%E9%85%8D%E7%BD%AEgithub-token/</url>
-    <content><![CDATA[<p>在2021年 8 月 13 日之后，如果你还用账户密码来操作 Github 上的仓库，就会收到以上警告：</p>
-<p>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.<br> remote: Please see <a class="link"   href="https://links.jianshu.com/go?to=https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/" >https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/<i class="fas fa-external-link-alt"></i></a> for more information.<br> fatal: unable to access ‘<a class="link"   href="https://links.jianshu.com/go?to=https://github.com/" >https://github.com/<i class="fas fa-external-link-alt"></i></a><user>/<repo>/‘: The requested URL returned error: 403</p>
-<p>作者：從此珍惜<br>链接：<a class="link"   href="https://www.jianshu.com/p/c2b565154395" >https://www.jianshu.com/p/c2b565154395<i class="fas fa-external-link-alt"></i></a><br>来源：简书</p>
-<p>必须使用个人访问令牌（personal access token），就是把你的密码替换成token！<br>github官方解释</p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>git</tag>
       </tags>
   </entry>
 </search>
