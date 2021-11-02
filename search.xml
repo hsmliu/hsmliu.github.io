@@ -13,6 +13,16 @@
       </tags>
   </entry>
   <entry>
+    <title>第一篇博客</title>
+    <url>/2021/10/29/hello-world/</url>
+    <content><![CDATA[<h1 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h1><p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<p><a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >https://hexo.io/docs/one-command-deployment.html<i class="fas fa-external-link-alt"></i></a>)</p>
+<h1 id="2-代码测试"><a href="#2-代码测试" class="headerlink" title="2.代码测试"></a>2.代码测试</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">generateAuth</span><span class="params">()</span></span>&#123;</span><br><span class="line">    String time = String.valueOf(System.currentTimeMillis());</span><br><span class="line">    String strings = appId + appKey + time;</span><br><span class="line">    String signStr = DigestUtils.md5DigestAsHex(strings.getBytes());</span><br><span class="line">    JSONObject jsonObject = <span class="keyword">new</span> JSONObject();</span><br><span class="line">    jsonObject.put(<span class="string">&quot;appId&quot;</span>, appId);</span><br><span class="line">    jsonObject.put(<span class="string">&quot;time&quot;</span>, time);</span><br><span class="line">    jsonObject.put(<span class="string">&quot;sign&quot;</span>, signStr);</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> BASE64Encoder().encode(jsonObject.toJSONString().getBytes());</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    System.out.println(generateAuth());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>3.测试修改</p>
+]]></content>
+  </entry>
+  <entry>
     <title>配置github token</title>
     <url>/2021/11/01/%E9%85%8D%E7%BD%AEgithub-token/</url>
     <content><![CDATA[<p>在2021年 8 月 13 日之后，如果你还用账户密码来操作 Github 上的仓库，就会收到以上警告：</p>
@@ -27,15 +37,5 @@
         <tag>github</tag>
         <tag>git</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>第一篇博客</title>
-    <url>/2021/10/29/hello-world/</url>
-    <content><![CDATA[<h1 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h1><p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<p><a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >https://hexo.io/docs/one-command-deployment.html<i class="fas fa-external-link-alt"></i></a>)</p>
-<h1 id="2-代码测试"><a href="#2-代码测试" class="headerlink" title="2.代码测试"></a>2.代码测试</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">generateAuth</span><span class="params">()</span></span>&#123;</span><br><span class="line">    String time = String.valueOf(System.currentTimeMillis());</span><br><span class="line">    String strings = appId + appKey + time;</span><br><span class="line">    String signStr = DigestUtils.md5DigestAsHex(strings.getBytes());</span><br><span class="line">    JSONObject jsonObject = <span class="keyword">new</span> JSONObject();</span><br><span class="line">    jsonObject.put(<span class="string">&quot;appId&quot;</span>, appId);</span><br><span class="line">    jsonObject.put(<span class="string">&quot;time&quot;</span>, time);</span><br><span class="line">    jsonObject.put(<span class="string">&quot;sign&quot;</span>, signStr);</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> BASE64Encoder().encode(jsonObject.toJSONString().getBytes());</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    System.out.println(generateAuth());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>3.测试修改</p>
-]]></content>
   </entry>
 </search>
